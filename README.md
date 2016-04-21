@@ -2,4 +2,4 @@
 
 Generator Syntax
 
-python instanceGenerator.py <paramFile> <outputFileName>
+python instanceGenerator.py paramFile outputFileName
