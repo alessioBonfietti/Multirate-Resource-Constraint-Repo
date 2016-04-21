@@ -1,0 +1,34 @@
+INST: 2
+interCoreCommunicationBitrate: 1
+interCoreCommunicationDelay: 1
+interruptLatency: 4
+PR: 1
+GH: dline nres core1 core2
+GV: 30 2 0 0
+NH: core1 core2
+NV: 5 5
+NV: 7 7
+NV: 5 5
+NV: 5 5
+AH: src dst size
+AV: 0 1 0
+AV: 1 2 0
+AV: 2 3 0
+END
+PR: 2
+GH: dline nres core1 core2
+GV: 120 2 0 0
+NH: core1 core2
+NV: 9 9
+NV: 9 9
+NV: 5 5
+NV: 6 6
+NV: 6 6
+NV: 7 7
+AH: src dst size
+AV: 0 1 0
+AV: 1 2 0
+AV: 2 3 0
+AV: 3 4 0
+AV: 4 5 0
+END

@@ -1,0 +1,257 @@
+INST: 3
+interCoreCommunicationBitrate: 1
+interCoreCommunicationDelay: 1
+interruptLatency: 4
+PR: 1
+GH: dline nres core1 core2
+GV: 30 2 0 0
+NH: core1 core2
+NV: 5 5
+NV: 10 10
+AH: src dst size
+AV: 0 1 0
+AV: 0 1 0
+END
+PR: 2
+GH: dline nres core1 core2
+GV: 300 2 0 0
+NH: core1 core2
+NV: 5 5
+NV: 5 5
+NV: 5 5
+NV: 9 9
+NV: 7 7
+NV: 5 5
+NV: 7 7
+NV: 6 6
+NV: 10 10
+NV: 3 3
+NV: 8 8
+NV: 8 8
+NV: 9 9
+NV: 8 8
+NV: 10 10
+AH: src dst size
+AV: 0 1 0
+AV: 1 2 0
+AV: 2 3 0
+AV: 3 4 0
+AV: 4 5 0
+AV: 5 6 0
+AV: 6 7 0
+AV: 7 8 0
+AV: 7 9 0
+AV: 8 10 0
+AV: 9 11 0
+AV: 10 12 0
+AV: 11 13 0
+AV: 12 14 0
+AV: 4 6 0
+AV: 7 10 0
+AV: 9 10 0
+AV: 11 12 0
+AV: 11 14 0
+END
+PR: 3
+GH: dline nres core1 core2
+GV: 3000 2 0 0
+NH: core1 core2
+NV: 7 7
+NV: 8 8
+NV: 6 6
+NV: 5 5
+NV: 3 3
+NV: 6 6
+NV: 7 7
+NV: 8 8
+NV: 3 3
+NV: 3 3
+NV: 10 10
+NV: 3 3
+NV: 5 5
+NV: 8 8
+NV: 8 8
+NV: 6 6
+NV: 6 6
+NV: 7 7
+NV: 10 10
+NV: 5 5
+NV: 7 7
+NV: 8 8
+NV: 9 9
+NV: 9 9
+NV: 9 9
+NV: 3 3
+NV: 5 5
+NV: 10 10
+NV: 8 8
+NV: 6 6
+NV: 3 3
+NV: 9 9
+NV: 9 9
+NV: 8 8
+NV: 8 8
+NV: 10 10
+NV: 4 4
+NV: 5 5
+NV: 4 4
+NV: 5 5
+NV: 10 10
+NV: 6 6
+NV: 4 4
+NV: 3 3
+NV: 9 9
+NV: 8 8
+NV: 7 7
+NV: 6 6
+NV: 7 7
+NV: 3 3
+NV: 5 5
+NV: 3 3
+NV: 3 3
+NV: 8 8
+NV: 5 5
+NV: 8 8
+NV: 4 4
+NV: 3 3
+NV: 7 7
+NV: 8 8
+NV: 6 6
+NV: 5 5
+NV: 7 7
+NV: 6 6
+NV: 5 5
+NV: 7 7
+NV: 10 10
+NV: 7 7
+NV: 4 4
+NV: 10 10
+NV: 6 6
+NV: 8 8
+NV: 4 4
+NV: 6 6
+NV: 3 3
+NV: 4 4
+NV: 4 4
+NV: 9 9
+NV: 10 10
+NV: 7 7
+NV: 9 9
+NV: 7 7
+NV: 9 9
+NV: 7 7
+NV: 7 7
+NV: 10 10
+NV: 4 4
+NV: 10 10
+NV: 5 5
+NV: 7 7
+NV: 10 10
+NV: 6 6
+AH: src dst size
+AV: 0 1 0
+AV: 1 2 0
+AV: 1 3 0
+AV: 2 4 0
+AV: 3 5 0
+AV: 4 6 0
+AV: 5 7 0
+AV: 6 8 0
+AV: 6 9 0
+AV: 7 10 0
+AV: 7 11 0
+AV: 8 12 0
+AV: 9 13 0
+AV: 10 14 0
+AV: 11 15 0
+AV: 12 16 0
+AV: 13 17 0
+AV: 14 18 0
+AV: 15 19 0
+AV: 16 20 0
+AV: 17 21 0
+AV: 18 22 0
+AV: 19 23 0
+AV: 20 24 0
+AV: 21 25 0
+AV: 22 26 0
+AV: 23 27 0
+AV: 24 28 0
+AV: 25 29 0
+AV: 26 30 0
+AV: 27 31 0
+AV: 28 32 0
+AV: 29 33 0
+AV: 30 34 0
+AV: 31 35 0
+AV: 32 36 0
+AV: 32 37 0
+AV: 33 38 0
+AV: 34 39 0
+AV: 35 40 0
+AV: 36 41 0
+AV: 36 42 0
+AV: 37 43 0
+AV: 38 44 0
+AV: 39 45 0
+AV: 40 46 0
+AV: 41 47 0
+AV: 42 48 0
+AV: 43 49 0
+AV: 44 50 0
+AV: 45 51 0
+AV: 46 52 0
+AV: 47 53 0
+AV: 47 54 0
+AV: 48 55 0
+AV: 49 56 0
+AV: 49 57 0
+AV: 50 58 0
+AV: 51 59 0
+AV: 52 60 0
+AV: 52 61 0
+AV: 53 62 0
+AV: 54 63 0
+AV: 55 64 0
+AV: 55 65 0
+AV: 56 66 0
+AV: 57 67 0
+AV: 58 68 0
+AV: 58 69 0
+AV: 58 70 0
+AV: 59 71 0
+AV: 60 72 0
+AV: 61 73 0
+AV: 62 74 0
+AV: 63 75 0
+AV: 64 76 0
+AV: 65 77 0
+AV: 66 78 0
+AV: 67 79 0
+AV: 68 80 0
+AV: 69 81 0
+AV: 70 82 0
+AV: 71 83 0
+AV: 72 84 0
+AV: 73 85 0
+AV: 74 86 0
+AV: 75 87 0
+AV: 76 88 0
+AV: 77 89 0
+AV: 78 90 0
+AV: 79 91 0
+AV: 1 4 0
+AV: 4 7 0
+AV: 6 10 0
+AV: 6 7 0
+AV: 19 20 0
+AV: 24 25 0
+AV: 30 31 0
+AV: 66 67 0
+AV: 67 68 0
+AV: 67 69 0
+AV: 68 69 0
+AV: 78 79 0
+AV: 81 82 0
+AV: 88 89 0
+END

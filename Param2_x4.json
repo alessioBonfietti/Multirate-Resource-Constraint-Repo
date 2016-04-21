@@ -1,0 +1,28 @@
+{ 
+	"architecture": {
+		"cores": ["core1", "core2"],
+		"resources": [],
+		"availability": [],
+		"interCoreBitrate": 1,
+		"interCoreDelay": 1,
+		"interDeviceBitrate": 1,
+		"interDeviceDelay": 1
+	},
+	"parameters": {
+		"maxApps": 2,
+		"maxOccupation": 0.7,
+		"minOccupation": 0.3,
+		"maxPeriodFactor": 4,
+		"maxTaskDuration": 10,
+		"minTaskDuration": 2,
+		"alpha": 1,
+		"beta": 1,
+		"epsilon": 0.4,
+		"wMin": 0,
+		"wMax": 0,
+		"consMin": 0.05,
+		"consMax": 0.3,
+		"forkDegree": 1.15,
+		"joinDegree": 1.18
+	}
+}
